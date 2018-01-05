@@ -1,0 +1,1 @@
+docker run -tid --name qd-zookeeper3 --restart=always --net zknet --ip 172.18.0.4 -d -p 2193:2181  --env ZOO_MY_ID=3 --env "ZOO_SERVERS=server.1=172.18.0.2:2888:3888 server.2=172.18.0.3:2888:3888 server.3=172.18.0.4:2888:3888"  docker.io/zookeeper:latest 

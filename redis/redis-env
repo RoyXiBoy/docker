@@ -1,0 +1,4 @@
+#主redis只需要配port，从redis需要配置master的ip与port
+PORT=6380
+MASTER_IP=192.168.219.128
+MASTER_PORT=6379
